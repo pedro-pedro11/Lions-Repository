@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+    color: black;
+    margin: 0px;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 2px orangered;
+    padding: 20px;
+    font-size: 50px;
+    color: white;
+}
+
+.chamada-texto {
+    background: rgb(255, 255, 255);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+    
+
+.texto {
+    margin-right: 5%;
+    font-family: "Chakra Petch", sans-serif;    
+
+}
+
+#Titulo-Secundario {
+    font-family: "Jacquard 24", system-ui;
+}
+
+
+#categoria-videos{
+    font-family: "Chakra Petch", sans-serif;
+    color: white;
+}
+
+#texto-explicacao{
+    size: 60px;
+    color: orangered;
+    font-size: 22px;
+    
+}
+
+#texto-video {
+    font-size: 30px;
+}
+    
+img {
+    height: 200px;
+}
+
+.videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+}
+
+.painel-videos {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.videos img {
+   opacity: 0.5;
+}
+
+.videos img:hover {
+    opacity: 1.0;
+    border: 1px solid orangered
+
+}
